@@ -29,6 +29,7 @@
      $MpesaReceiptNumber = $callbackContent->Body->stkCallback->CallbackMetadata->Item[1]->Value;
      $PhoneNumber = $callbackContent->Body->stkCallback->CallbackMetadata->Item[4]->Value;
      $formatedPhone  = str_replace("254", "0" , $PhoneNumber); 
+     /*
      if ($Resultcode == 0) {
 
          // Connect to DB
@@ -49,7 +50,7 @@
         
          
       }
-  }
+  } */
      
 
  
