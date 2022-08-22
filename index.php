@@ -83,7 +83,7 @@
           <div class="media-body">
             <h6 class="mt-1">Enter Amount & Number</h6>
           </div>
-        </div>
+        </div>  
         <div class="media mt-3 pl-2">
                           <!--bs5 input-->
 
