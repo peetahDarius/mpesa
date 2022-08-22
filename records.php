@@ -87,9 +87,9 @@
     <div class="container d-flex justify-content-center">
       <div class="card  custom-record mt-5 px-3 py-4">
         <div class="d-flex flex-row justify-content-around">
-          <a href="./index.php" class="tab">
+          <!--<a href="./index.php" class="tab">
           <div style="background-color:#F3F4F6;" class="mpesa-tab" ><span class="tab">Mpesa </span></div>
-          </a>
+          </a> -->
           <div style="background-color:#545EBD; color:white;" ><span >Records</span></div>
           <div style="display:none;"><span>Card</span></div>
         </div>
