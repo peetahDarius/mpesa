@@ -28,8 +28,7 @@
      $Amount = $callbackContent->Body->stkCallback->CallbackMetadata->Item[0]->Value;
      $MpesaReceiptNumber = $callbackContent->Body->stkCallback->CallbackMetadata->Item[1]->Value;
      $PhoneNumber = $callbackContent->Body->stkCallback->CallbackMetadata->Item[4]->Value;
-     $formatedPhone  = str_replace("254", "0" , $PhoneNumber); 
-     /*
+     $formatedPhone  = str_replace("254", "0" , $PhoneNumber);
      if ($Resultcode == 0) {
 
          // Connect to DB
@@ -42,7 +41,7 @@
       if ($conn->connect_error) {
           die("<h1>Connection failed:</h1> " . $conn->connect_error);
       } else {
-          $insert = $conn->query("INSERT INTO tinypesa(CheckoutRequestID,ResultCode,amount,MpesaReceiptNumber,PhoneNumber) VALUES ('$CheckoutRequestID','$Resultcode','$Amount','$MpesaReceiptNumber','$PhoneNumber')");
+          $insert = $conn->query("INSERT INTO pesa(CheckoutRequestID,ResultCode,amount,MpesaReceiptNumber,PhoneNumber) VALUES ('$CheckoutRequestID','$Resultcode','$Amount','$MpesaReceiptNumber','$PhoneNumber')");
             
           //purge all temp data sets💀💀
           unset($mpesaResponse[$callbackContent]);
@@ -50,7 +49,6 @@
         
          
       }
-  } */ 
-     
+  }
 
  

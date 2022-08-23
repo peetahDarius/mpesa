@@ -117,7 +117,7 @@
 
             include('./includes/conn.inc.php');
 
-            $query1= mysqli_query($conn,"SELECT*from tinypesa");
+            $query1= mysqli_query($conn,"SELECT*from pesa");
             while($row=mysqli_fetch_array($query1))
             {
                 ?>

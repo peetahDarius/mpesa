@@ -10,7 +10,7 @@ if(isset($_POST['submit'])){
 
   # define the variales
   # provide the following details, this part is found on your test credentials on the developer account
-  $BusinessShortCode = '5330651';
+  $BusinessShortCode = '174379';
   $Passkey = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919';  
   
   /*
@@ -42,7 +42,7 @@ if(isset($_POST['submit'])){
   $initiate_url = 'https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest';
 
   # callback url
-  $CallBackURL = 'https://aqueous-sea-86151.herokuapp.com/callback_url.php';  
+  $CallBackURL = 'https://c730-197-248-144-49.in.ngrok.io/captive_portal/callback_url.php';  
 
   $curl = curl_init($access_token_url);
   curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
