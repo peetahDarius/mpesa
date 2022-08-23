@@ -32,7 +32,7 @@
      if ($Resultcode == 0) {
 
          // Connect to DB
-    include('./includes/conn.inc.php');
+    include('./conn.php');
 
         
   
